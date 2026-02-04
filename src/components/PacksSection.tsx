@@ -19,6 +19,7 @@ const packs: Pack[] = [
     features: [
       "1 página con 4 secciones",
       "Diseño rápido y limpio",
+      "Adaptada a móviles",
       "Con tus datos de contacto",
       "Ajustes mínimos incluidos",
     ],
@@ -32,7 +33,7 @@ const packs: Pack[] = [
     features: [
       "1 página con 5-6 secciones",
       "Branding adaptado a tu marca",
-      "Formulario + integración redes",
+      "Formulario + enlaces a redes",
       "100% responsive",
       "Hasta 2 revisiones",
     ],
