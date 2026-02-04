@@ -23,7 +23,7 @@ const packs: Pack[] = [
       "Con tus datos de contacto",
       "Ajustes mínimos incluidos",
     ],
-    limitations: ["Sin formulario de contacto", "Poco escalable"],
+    limitations: ["Sin formularios", "Sin redes"],
     cta: "Comprar Pack Inicio",
   },
   {
