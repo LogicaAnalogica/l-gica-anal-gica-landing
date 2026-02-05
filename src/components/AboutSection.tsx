@@ -4,7 +4,7 @@ const AboutSection = () => {
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
-            Sobre nosotros
+            ¿Qué consigues?
           </span>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-8 leading-tight">
@@ -25,9 +25,7 @@ const AboutSection = () => {
                 </svg>
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Rápido</h3>
-              <p className="text-muted-foreground">
-                Tu web lista en días para que arranques antes de postergar de nuevo.
-              </p>
+              <p className="text-muted-foreground">Tu web lista en días, no en meses. Sin esperas interminables.</p>
             </div>
 
             <div className="p-6">
