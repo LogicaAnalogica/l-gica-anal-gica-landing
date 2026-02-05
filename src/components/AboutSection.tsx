@@ -27,7 +27,7 @@ const AboutSection = () => {
               </div>
               <h3 className="text-xl font-serif font-semibold mb-2">Rápido</h3>
               <p className="text-muted-foreground">
-                Tu web lista en días, no en meses. Para empezar a vivir ya de tu trabajo.
+                Tu web lista en días, no en meses. Para empezar a vivir por fin de tu trabajo.
               </p>
             </div>
 
