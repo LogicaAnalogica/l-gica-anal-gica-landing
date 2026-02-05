@@ -27,7 +27,12 @@ const Header = () => {
     >
       <div className="container-narrow">
         <div className="flex items-center justify-between">
-          <a href="/" className="text-xl font-serif font-semibold text-foreground">
+          <a
+            href="/"
+            className="text-xl font-serif font-semibold text-foreground"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Lógica Analógica
           </a>
 
