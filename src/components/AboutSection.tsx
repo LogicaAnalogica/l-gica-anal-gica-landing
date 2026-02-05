@@ -8,7 +8,7 @@ const AboutSection = () => {
           </span>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-8 leading-tight">
-            Tu web profesional,  sin líos técnicos
+            Tu web profesional, 
             <br className="hidden sm:block" />
             <span className="text-primary my-[10px]">sin líos técnicos</span>
           </h2>
