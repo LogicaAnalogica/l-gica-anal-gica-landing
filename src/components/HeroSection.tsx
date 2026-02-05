@@ -25,13 +25,9 @@ const HeroSection = () => {
             Lógica Analógica
           </span>
           
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold leading-tight text-foreground mb-6">
-            Diseño web claro, funcional y sin complicaciones
-          </h1>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold leading-tight text-foreground mb-6">Una web que te sostiene mientras ayudas</h1>
           
-          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl leading-relaxed">
-            Creamos tu web profesional lista para crecer, sin perder tiempo ni dinero.
-          </p>
+          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-xl leading-relaxed">Ayudar a los demás y ganar tú también, ahora más fácil.</p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button onClick={scrollToPacks} size="lg" className="btn-primary text-base px-8 py-6">

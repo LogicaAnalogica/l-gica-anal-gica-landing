@@ -2,9 +2,7 @@ const AboutSection = () => {
   return <section className="section-padding bg-muted/30">
       <div className="container-narrow">
         <div className="max-w-3xl mx-auto text-center animate-fade-in">
-          <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
-            Sobre nosotros
-          </span>
+          <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">¿QUÉ CONSIGUES?</span>
           
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-8 leading-tight">
             Tu web profesional, <br className="hidden sm:block" />
