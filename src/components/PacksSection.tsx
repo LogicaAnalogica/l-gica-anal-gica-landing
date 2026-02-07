@@ -69,7 +69,7 @@ const PacksSection = () => {
       <div className="container-narrow">
         <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
-            Nuestros Packs
+            Tienes derecho a tener una web profesional
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-6">
             Elige el pack que encaja contigo
