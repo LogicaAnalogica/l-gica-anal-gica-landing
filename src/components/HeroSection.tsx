@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div className="relative z-10 container-narrow w-full">
         <div className="max-w-2xl animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-6">
-            Lógica Analógica
+            Nuevas páginas web para ti
           </span>
 
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-semibold leading-tight text-foreground mb-6">
@@ -40,7 +40,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Button onClick={scrollToPacks} size="lg" className="btn-primary text-base px-8 py-6">
-              Ver precios
+              Comprar ahora
             </Button>
             <Button
               onClick={scrollToContact}
