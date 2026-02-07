@@ -69,13 +69,13 @@ const PacksSection = () => {
       <div className="container-narrow">
         <div className="text-center mb-16 animate-fade-in">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
-            Tienes derecho a tener una web profesional
+            Packs para emprendedoras
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground mb-6">
-            Elige el pack que encaja contigo
+            Porque tienes derecho a tener una web que muestre tu valor
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Sin sorpresas. Precio cerrado. Tú eliges lo que necesitas.
+            Elige el pack que encaja contigo. Sin sorpresas. Precio cerrado. Tú eliges lo que necesitas.
           </p>
         </div>
 
