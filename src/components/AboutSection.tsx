@@ -57,25 +57,25 @@ const AboutSection = () => {
 
         {/* Two-column: text + illustration */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-16">
-          <div className="space-y-8 animate-fade-in">
-            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground" style={{ lineHeight: 2 }}>
+          <div className="space-y-6 animate-fade-in">
+            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground" style={{ lineHeight: 1.8 }}>
               No necesitas otra herramienta más.
             </p>
-            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground" style={{ lineHeight: 2 }}>
+            <p className="text-xl md:text-2xl font-serif italic text-muted-foreground" style={{ lineHeight: 1.8 }}>
               Necesitas una web que te quite peso de encima.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 2.2 }}>
+            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.9 }}>
               Una web que explique bien lo que haces, sin que tengas que contarlo mil veces. Que transmita tu valor,
               aunque hoy no tengas tiempo ni energía para "venderte".
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 2.2 }}>
+            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.9 }}>
               Yo me encargo de la parte técnica, del orden y de la estructura para que tú puedas centrarte en ti, en tu
               familia y en seguir acompañando como sabes hacerlo.
             </p>
-            <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 2 }}>
+            <p className="text-lg md:text-xl font-serif text-muted-foreground" style={{ lineHeight: 1.8 }}>
               Una web sencilla, honesta y profesional sin arruinarte por el camino.
             </p>
-            <p className="text-lg md:text-xl font-serif italic text-primary" style={{ lineHeight: 2 }}>
+            <p className="text-lg md:text-xl font-serif italic text-primary" style={{ lineHeight: 1.8 }}>
               De manera rápida y sin complicaciones.
             </p>
           </div>
