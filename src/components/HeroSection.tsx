@@ -3,24 +3,19 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
   const scrollToContact = () => {
     document.getElementById("contacto")?.scrollIntoView({
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
   const scrollToPacks = () => {
     document.getElementById("packs")?.scrollIntoView({
-      behavior: "smooth",
+      behavior: "smooth"
     });
   };
-  return (
-    <section className="relative min-h-screen flex items-center">
+  return <section className="relative min-h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Espacio de trabajo moderno con vistas al campo"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40 opacity-85" />
+        <img src={heroImage} alt="Espacio de trabajo moderno con vistas al campo" className="w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40 opacity-95" />
       </div>
 
       {/* Content */}
@@ -42,12 +37,7 @@ const HeroSection = () => {
             <Button onClick={scrollToPacks} size="lg" className="btn-primary text-base px-8 py-6">
               Comprar ahora
             </Button>
-            <Button
-              onClick={scrollToContact}
-              variant="outline"
-              size="lg"
-              className="btn-outline-hero text-base px-8 py-6"
-            >
+            <Button onClick={scrollToContact} variant="outline" size="lg" className="btn-outline-hero text-base px-8 py-6">
               Enviar mensaje
             </Button>
           </div>
@@ -60,7 +50,6 @@ const HeroSection = () => {
           <div className="w-1.5 h-3 bg-primary/60 rounded-full" />
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
 export default HeroSection;
