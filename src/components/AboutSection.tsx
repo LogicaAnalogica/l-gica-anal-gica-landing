@@ -10,8 +10,6 @@ const AboutIllustration = () => (
   />
 );
 
-
-
 const AboutSection = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -19,22 +17,30 @@ const AboutSection = () => {
 
   const features = [
     {
-      icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      ),
+      icon: <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M13 10V3L4 14h7v7l9-11h-7z" />,
       title: "Rápido",
       description: "Tu web lista en días, no en meses. Para empezar a vivir por fin de tu trabajo.",
     },
     {
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
       ),
       title: "Simple",
       description: "Sin jerga técnica. Te lo explico todo claro para que puedas decidir.",
     },
     {
       icon: (
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={1.5}
+          d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+        />
       ),
       title: "Precio justo",
       description: "Packs cerrados. Sabes lo que pagas desde el principio.",
@@ -43,12 +49,16 @@ const AboutSection = () => {
 
   return (
     <section className="section-padding bg-muted/30">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/*Otra opción que queda bien si no quiero usar el container <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">*/}
+      <div className="container">
         <div className="text-center animate-fade-in mb-12">
           <span className="inline-block text-sm font-medium tracking-widest uppercase text-primary mb-4">
             Así puedo ayudarte
           </span>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground leading-tight">
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-serif font-semibold text-foreground"
+            style={{ lineHeight: 1.4 }}
+          >
             Tu web profesional,
             <br className="hidden sm:block" />
             <span className="text-primary my-[10px]">sin líos técnicos</span>
@@ -75,7 +85,7 @@ const AboutSection = () => {
             <p className="text-lg md:text-xl text-muted-foreground" style={{ lineHeight: 1.8 }}>
               Una web sencilla, honesta y profesional sin arruinarte por el camino.
             </p>
-            <p className="text-lg md:text-xl font-serif italic text-primary" style={{ lineHeight: 1.8 }}>
+            <p className="text-xl md:text-2xl font-serif italic text-primary" style={{ lineHeight: 1.8 }}>
               De manera rápida y sin complicaciones.
             </p>
           </div>
